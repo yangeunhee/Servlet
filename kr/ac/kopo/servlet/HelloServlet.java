@@ -18,7 +18,7 @@ public class HelloServlet extends HttpServlet {
    @Override
    public void service(ServletRequest request, ServletResponse response)	 // 요청과 응답을 처리하는 service메소드
 	   	throws IOException, ServletException{
-	   		System.out.println("미희야 결혼하자");
+	   		System.out.println("실제 작업이 수행되는 메세지입니다. 사용자가 요청할 때 마다 호출됩니다");
 	   	}
 
 	@Override
